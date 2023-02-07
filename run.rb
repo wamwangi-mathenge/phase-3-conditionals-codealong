@@ -37,4 +37,21 @@ def to_do_week day
     end
 end
 
+# dog = "cuddly"
+def to_do_dog dog
+    if dog == "hungry"
+        owner = "Refilling food bowl."
+    elsif dog == "thirsty"
+        owner = "Refilling water bowl."
+    elsif dog == "playful"
+        owner = "Play tug-of-war."
+    elsif dog == "cuddly"
+        owner = "Snuggling."
+    else
+        owner = "Play PS5"
+    end
+end
+
+
+
 binding.pry
