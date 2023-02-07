@@ -59,5 +59,14 @@ def to_do_timer timer
 end
 
 
+def control_flow(value)
+    if value
+        puts "Yeah!"
+    else
+        puts "Nope!"
+    end
+end
+
+
 
 binding.pry
