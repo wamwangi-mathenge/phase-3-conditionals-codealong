@@ -16,6 +16,8 @@ end
 def do_dishes dishes
     unless dishes == "clean"
         "Run Dishwasher"
+    else
+        "Don't run dishwasher"
     end
 end
 
