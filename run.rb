@@ -52,6 +52,12 @@ def to_do_dog dog
     end
 end
 
+def to_do_timer timer 
+    unless timer == 0
+        puts "Still cooking"
+    end
+end
+
 
 
 binding.pry
