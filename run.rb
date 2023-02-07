@@ -13,6 +13,10 @@ def to_do day
 end
 
 
-def
+def do_dishes dishes
+    unless dishes == "clean"
+        "Run Dishwasher"
+    end
+end
 
 binding.pry
